@@ -42,14 +42,8 @@ void keyPressed() {
 void mousePressed() {
 }//End mousePressed
 //
-// What we will copy and paste from the Static Program
 /*
- // Concatenation
- 
- //
- 
- 
- 
+
  //
 /*Note: the computer is adding ASCII Values
  Period has an ASCII Value of 46
