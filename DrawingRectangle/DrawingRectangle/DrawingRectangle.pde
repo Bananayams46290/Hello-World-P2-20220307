@@ -19,6 +19,13 @@ println("Display", "width: ", displayWidth, " height: ", displayHeight);
 //
 void draw() 
 {
+  
+  // Background as gray scale, 0-255 (notice 256 numbers)
+  background(50);
+  // New Background Function "covers" old gray scale background()
+  // Background as color, RGB, random (a,b)
+  // Night Mode means background cannot have blue // change random for night mode
+  //
  if ( nightMode==true ) //Night Mode Choices
 {
   backgroudBlue = 0;
