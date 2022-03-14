@@ -12,7 +12,8 @@ color greenNightMode=#4FFC00, pinkNightMode=#B20350; //No blue light for the col
 background(50);
 // New Background Function "covers" old gray scale background()
 // Background as color, RGB, random (a,b)
-background( color(random(0, 255), random(255), random(255)) );
+// Night Mode means background cannot have blue // change random for night mode
+background( color(random(0, 255), random(255), random(255), 0) );
 strokeWeight(thick);
 stroke(green); //greenNightMode
 fill(pink); //pinkNightMode
